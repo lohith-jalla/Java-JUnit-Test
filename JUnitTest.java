@@ -4,7 +4,7 @@ public class JUnitTest {
         return a+b;
     }
     public static void main(String[] args) {
-        JUnitTest a= new Sample_classForJUnitTest();
+        JUnitTest a= new JUnitTest();
         System.out.println(a.add(2,3));
     }
 }
